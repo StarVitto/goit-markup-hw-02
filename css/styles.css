@@ -26,13 +26,15 @@ body {
     color: #000000;}
 
 .nav-link {
-    color: var(--accent-color);
+    color: var(--primari-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;}
 .link:hover,
 .link:focus {
     color: var(--accent-color);}
+.link {
+     text-decoration: none;}
 .contact.list {
     font-weight: 500;
     line-height: 1.14;
@@ -40,12 +42,12 @@ body {
 .list {
     list-style: none;}
 .contact-link {
-    color: var(--accent-color);
+    color: var(--primari-text-color);
     text-decoration: none;}
 .link.current,
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--accent-color)}
+    color: var(--accent-color);}
 .contact.list {
 font-weight: 500;
 line-height: 1.14;
@@ -131,7 +133,7 @@ letter-spacing: 0.02em;}
     color: #FFFFFF;
     text-decoration: none;}
 .footer-contact {
-    color: rgb(255, 255, 255, 60%);
+    color: rgb(255, 255, 255, 0.6);
     text-decoration: none;}
 .footer .list {
     line-height: 1.7;}
@@ -153,7 +155,5 @@ letter-spacing: 0.02em;}
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.9;}
-.site-nav-list:hover,
-.site-nav-list:focus {
-    var(--accent-color);}
+
 
