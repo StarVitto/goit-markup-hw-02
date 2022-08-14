@@ -39,19 +39,15 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;}
-.list {
+.list{
     list-style: none;}
 .contact-link {
-    color: var(--primari-text-color);
+    color: var(--title-text-color);
     text-decoration: none;}
 .link.current,
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color);}
-.contact.list {
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;}
 .hero,
 .footer {
     background-color: #2f303a;}
@@ -155,5 +151,6 @@ letter-spacing: 0.02em;}
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.9;}
+
 
 
